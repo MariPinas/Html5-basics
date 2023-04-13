@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios de forms</title>
+    <style>
+        #estiloborda {
+            border: 3px solid yellow
+        }
+    </style>
+</head>
+
+<body style="text-align: center;">
+    <p id="estiloborda">FORM EXERCISES</p>
+    <input type="button" value="OK">
+    <br>
+    <br>
+    <form action="../pagina2.html" style="display: inline-block;">
+        Nome: <input type="text" value="name">
+        <input type="submit" value="Enviar">
+        <select name="cars">
+            <option value="Volvo">Volvo</option>
+            <option value="Ford">Ford</option>
+        </select>
+        <br>
+        <br>
+        <textarea>Nota:</textarea>
+        <br>
+        <br>
+        Favorite color:
+        Blue <input type="checkbox" value="blue" name="cor">
+        Red <input type="checkbox" value="red" name="cor">
+        <input type="submit">
+        <br>
+        <br>
+        <input type="text" maxlength="40" readonly>
+    </form>
+    <form>
+        Favorite language:
+        <input type="radio" name="fav_language" value="html"> english
+        <input type="radio" name="fav_language" value="css"> portuguese
+    </form>
+</body>
+
+</html>
